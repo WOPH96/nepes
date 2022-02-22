@@ -103,6 +103,9 @@ int main()
   spi_flash_write_test(flash, data);
   spi_flash_wait_sr1(flash);
 
+  spi_flash_read_sr1(flash);
+  printf("%d",flash->rx_buffer[0]);
+
   spi_flash_close(flash);
 
   return 0;

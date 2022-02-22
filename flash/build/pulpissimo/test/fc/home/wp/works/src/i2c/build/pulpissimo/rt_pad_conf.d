@@ -1,4 +1,4 @@
-/home/wp/works/src/flash_spi/i2c/build/pulpissimo/test/fc//home/wp/works/src/i2c/build/pulpissimo/rt_pad_conf.o: \
+/home/wp/works/src/flash_spi/flash/build/pulpissimo/test/fc//home/wp/works/src/i2c/build/pulpissimo/rt_pad_conf.o: \
  /home/wp/works/src/i2c/build/pulpissimo/rt_pad_conf.c \
  /home/wp/works/src/i2c/build/pulpissimo/fc_config.h \
  /home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/archi/pulp_defs.h \
