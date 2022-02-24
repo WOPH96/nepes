@@ -35,7 +35,7 @@ $(foreach file, $(WS_INSTALL_FILES), $(eval $(call declareWsInstallFile,$(file))
 PULP_LIB_NAME_test ?= test
 
 
-PULP_FC_EXTRA_SRCS_test = /home/wp/works/src/i2c/build/pulpissimo/rt_conf.c /home/wp/works/src/i2c/build/pulpissimo/rt_pad_conf.c
+PULP_FC_EXTRA_SRCS_test = /home/wp/works/src/nepes/flash/build/pulpissimo/rt_conf.c /home/wp/works/src/nepes/flash/build/pulpissimo/rt_pad_conf.c
 PULP_FC_EXTRA_ASM_SRCS_test = 
 PULP_FC_EXTRA_OMP_SRCS_test = 
 

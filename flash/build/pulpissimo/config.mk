@@ -11,8 +11,8 @@ export PULP_SDK_INSTALL=$(TARGET_INSTALL_DIR)
 export PULP_SDK_WS_INSTALL=$(INSTALL_DIR)
 endif
 
--include /home/wp/works/src/i2c/build/pulpissimo/__flags.mk
+-include /home/wp/works/src/nepes/flash/build/pulpissimo/__flags.mk
 
 ifndef INCLUDE_NO_RULES
--include /home/wp/works/src/i2c/build/pulpissimo/__rules.mk
+-include /home/wp/works/src/nepes/flash/build/pulpissimo/__rules.mk
 endif

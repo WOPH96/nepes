@@ -1,7 +1,7 @@
-/home/wp/works/src/nepes/flash/build/pulpissimo/test/fc/test.o: test.c \
+/home/wp/works/src/nepes/flash/build/pulpissimo/test/fc//home/wp/works/src/nepes/flash/build/pulpissimo/rt_conf.o: \
+ /home/wp/works/src/nepes/flash/build/pulpissimo/rt_conf.c \
  /home/wp/works/src/nepes/flash/build/pulpissimo/fc_config.h \
  /home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/archi/pulp_defs.h \
- /home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/io/stdio.h \
  /home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/rt/rt_api.h \
  /home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/rt/rt_api_decl.h \
  /home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/rt/rt_data.h \
@@ -79,6 +79,7 @@
  /home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/rt/implem/hyperram.h \
  /home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/rt/rt_debug.h \
  /home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/io/stdlib.h \
+ /home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/io/stdio.h \
  /home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/io/stdlib.h \
  /home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/rt/rt_config.h \
  /home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/rt/rt_pe.h \
@@ -170,8 +171,6 @@
 /home/wp/works/src/nepes/flash/build/pulpissimo/fc_config.h:
 
 /home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/archi/pulp_defs.h:
-
-/home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/io/stdio.h:
 
 /home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/rt/rt_api.h:
 
@@ -326,6 +325,8 @@
 /home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/rt/rt_debug.h:
 
 /home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/io/stdlib.h:
+
+/home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/io/stdio.h:
 
 /home/wp/works/NEPES_FPGA/pulp-sdk/pkg/sdk/dev/install/include/io/stdlib.h:
 
