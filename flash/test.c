@@ -89,7 +89,7 @@ void spi_flash_write_test(spi_flash_t *flash, int* data){
 
 int main()
 {
-
+  printf("Start!\r\n");
   int data[] = {0xDEADBEEF, 0x11111111, 0x22222222, 0x33333333};
 
   rt_spim_conf_t *config = spi_flash_init_cfg();
