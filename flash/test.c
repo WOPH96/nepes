@@ -34,8 +34,8 @@ spi_flash_t* spi_flash_open(rt_spim_conf_t *conf) {
   rt_spim_t *device = rt_spim_open(NULL, conf, NULL);
   spi_flash_t *flash = malloc(sizeof(spi_flash_t));
   flash->device = device;
-  flash->tx_buffer = rt_alloc(RT_ALLOC_PERIPH, BUFFER_SIZE);
-  flash->rx_buffer = rt_alloc(RT_ALLOC_PERIPH, BUFFER_SIZE);
+  flash->tx_buffer = malloc( BUFFER_SIZE);
+  flash->rx_buffer = malloc( BUFFER_SIZE);
   return flash;
 }
 
@@ -104,7 +104,9 @@ int main()
   spi_flash_wait_sr1(flash);
 
   spi_flash_read_sr1(flash);
-  printf("%d",flash->rx_buffer[0]);
+
+  rt_spim_receive(flash->device, flash->rx_buffer, 32, RT_SPIM_CS_AUTO, NULL);
+  printf("0x%x\r\n",flash->rx_buffer[0]);
 
   spi_flash_close(flash);
 
