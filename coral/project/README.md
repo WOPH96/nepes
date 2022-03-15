@@ -1,0 +1,1 @@
+# 비명소리, 구조요청 sound 판단하는 sensor using coral
