@@ -15,7 +15,7 @@ RUN apt-get update && apt-get -qq -y install bzip2 ca-certificates build-essenti
     && rm -rf /var/lib/apt/lists/* /var/log/dpkg.log \
     && conda clean --all --yes \
 	&& conda install tensorflow
-RUN pip install keras==2.5.0rc0 pandas==1.3.5 Pillow==9.1.1 matplotlib==3.5.2 \
+RUN pip install pandas==1.3.5 Pillow==9.1.1 matplotlib==3.5.2 \
 	&& cd && mkdir xq && mv xenqore* xq \
 	&& cp -r ~/xq/xenqore_v1.4/xenqore /usr/local/lib/python3.7/site-packages/ \
 	&& cp ~/xq/xenqore-cpp/lib/linux.aarch64/libxenqore.so.1.0.0 /usr/local/lib \
